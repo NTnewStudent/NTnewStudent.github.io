@@ -100,7 +100,7 @@ Marketing: locate nearby 商圈/店铺. Prototype home shows **nearest superstor
 
 ### 3.4 Order tracking
 
-<v3.3 narrative: 接单 → 配送 → 收款 with rider-side work orders. We expose a **timeline** (paid → packed at store → rider assigned → out for delivery → delivered → “book installer”).
+v3.3 narrative: 接单 → 配送 → 收款 with rider-side work orders. We expose a **timeline** (paid → packed at store → rider assigned → out for delivery → delivered → “book installer”).
 
 ---
 

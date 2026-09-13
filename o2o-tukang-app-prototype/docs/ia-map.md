@@ -60,7 +60,7 @@ Language toggle lives in the **phone chrome** (global), not inside one tab.
 
 | Screen | Source | Notes |
 |---|---|---|
-| `#/tukang` | Tukang home + Wanshifu verbs | 23-style specializations, collapsed to 10 for proto |
+| `#/tukang` | Tukang home + Wanshifu verbs | 23 official specializations + reno bundle, filterable by pillar |
 | `#/book/:service` | Job form | Address, photos, mode = fixed/quote/project, SKU pin |
 | `#/quotes/:job` | Interest list / 报价 | 2–3 cards, 2h window copy, 60m pick reminder |
 | `#/craftsman/:id` | Mitra profile | Class, skills, rating, sample jobs |
@@ -117,22 +117,13 @@ Orders tab is a **union query** over GoodsOrder ∪ ServiceOrder sorted by `upda
 ## 7. Prototype route list
 
 ```
-#/home
-#/mall
-#/product/:id
-#/cart
-#/checkout
-#/pay
-#/membership
-#/orders
-#/order/:id
-#/tukang
-#/book/:service
-#/quotes
-#/craftsman/:id
-#/job/:id
-#/rate/:id
-#/account
+#/home #/search #/mall #/category/:id #/store/:id #/product/:id
+#/cart #/freight #/checkout #/pay #/membership
+#/orders #/order/:id
+#/tukang #/service/:id #/book/:service/:sku? #/quotes #/rab
+#/craftsman/:id #/job/:id #/rate/:id #/report/:id #/aftersales/:id
+#/inspiration #/inspire/:id
+#/account #/wallet #/messages #/chat/:id
 ```
 
 All of the above are implemented in `app/` with EN/ID strings in `app/js/i18n.js`.
